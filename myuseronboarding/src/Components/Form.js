@@ -23,10 +23,7 @@ export default function Form({values, onChange, newUserForm, disabled, errors}){
     background-color: rgba(255,255,255,0.3);
     transition: 0.3s all;
     text-align:center;
-    &:hover {
-    background-color: rgba(255, 255, 255, 0.45);
-    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
-    }`
+    `
 
 
 
