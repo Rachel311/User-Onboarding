@@ -84,7 +84,7 @@ function App() {
     <div className="App">
       <Route path='/Form'>
         <Form onChange={onChange} values={formValues} newUserForm={newUserForm} disabled={disabled} errors={formErrors}/></Route>
-      <Route path='/Users'><Users/></Route>
+      <Route path='/Users'><Users props={user}/></Route>
     </div>
   );
 }
